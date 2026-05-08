@@ -1,6 +1,6 @@
 programa {
 
-  funcao verificarAluno() {
+  funcao verificarNumero() {
 
     inteiro numero
 
@@ -11,7 +11,7 @@ programa {
 
       se(numero > 0){
         escreva("Número positivo.\n")
-      }senao{
+      }senao se(numero > 0){
         escreva("Número negativo.\n")
       }
 
@@ -22,7 +22,7 @@ programa {
 
   funcao inicio() {
 
-    verificarAluno()
+    verificarNumero()
     
   }
 }
